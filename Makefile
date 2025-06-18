@@ -1,8 +1,7 @@
 # Makefile
-#   Compiles the LaTeX (.tex) 
+#   Compiles the LaTeX (.tex) source into a PDF format.
 #
 # Author: Caleb Carlson <caleb.carlson@hpe.com>
-#
 #
 
 .DEFAULT_GOAL := pdf
