@@ -105,7 +105,7 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
 % ------------------------------------------------------------------------------
 
 % ----------------------- EXPERIENCE -------------------------------------------
-\section{Experience}
+\section{Industry Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Hewlett Packard Enterprise}{Fort Collins, CO}
@@ -114,19 +114,17 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
         \resumeItem{}
           {Created an automated, user-friendly, and scalable software upgrade procedure for DAOS storage cluster}
         \resumeItem{}
-          {Designed and implemented cluster bootstrapping process for DAOS storage product}
-        \resumeItem{}
-          {Adapted HPE HPCM as foundation for new DAOS storage product}
+          {Designed and implemented cluster bootstrapping process for DAOS storage product, using HPCM as a foundation}
         \resumeItem{}
           {Triaged Kubernetes management issues in several customers' legacy storage products}
         \resumeItem{}
           {Contributed bugfixes and LNet kernel module tuning improvements to community Lustre filesystem project}
         \resumeItem{}
-          {Benchmarked ClusterStor Lustre filesystem against GPUDirect Storage clients and POSIX clients}
+          {Benchmarked HPC Lustre filesystems against GPUDirect Storage and POSIX clients}
         \resumeItem{}
           {Created Jenkins pipeline that builds DKMS-enabled Lustre clients for a variety of distros and kernels}
-        \resumeItem{}
-          {Investigated DAOS filesystem and enabled Infiniband device passthrough for Kubernetes-provisioned clusters}
+        % \resumeItem{}
+        %   {Investigated DAOS filesystem and enabled Infiniband device passthrough for Kubernetes-provisioned clusters}
         \resumeItem{}
           {Streamlined add-on data mover node discovery and software mapping process}
       \resumeItemListEnd
@@ -145,61 +143,20 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
       {Cray, Inc.}{Longmont, CO}
       {HPC Storage - Software Development Intern}{May 2020 -- May 2022}
       \resumeItemListStart
+        % \resumeItem{}
+        %   {Automated Jenkins builds, Go unit testing, and Slack notifications for team's repositories}
         \resumeItem{}
-          {Automated Jenkins builds, Go unit testing, and Slack notifications for team's repositories}
+          {Built Jenkins pipelines, Go unit tests, and Slack notifications for team's repositories}
         \resumeItem{}
-          {Overhauled Go gRPC communication strategy between data path microservices}
+          {Improved gRPC communication strategy between data path microservices}
         \resumeItem{}
-          {Created filesystem controller to create and manage Lustre/ZFS filesystems on host node}
-        \resumeItem{}
-          {Added resource persistence via both filesystem and Kubernetes' etcd keystore}
-        \resumeItem{}
-          {Updated drive management controller to provide NVMe and SCSI drive discovery}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Colorado State University - Pallickara Lab}{Fort Collins, CO}
-      {Graduate Research Assistant}{Jan 2021 - May 2022}
-      \resumeItemListStart
-        \resumeItem{}
-          {Wrote/published one paper to BDCAT 2021 as second author, another to 2022 IEEE Big Data as first author}
-        \resumeItem{}
-          {Automated cluster management with two Kubernetes clusters, Docker containerization, and Bash/Python scripts}
-        \resumeItem{}
-          {Established procedures for ingesting, documenting, and sharding datasets into MongoDB cluster}
-        \resumeItem{}
-          {Advocated for solid software engineering practices like test-driven development, clean code, and well-defined version control processes}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Colorado State University, Intro to Operating Systems}{Fort Collins, CO}
-      {Graduate Teaching Assistant}{Aug 2020 -- Dec 2020}
-      \resumeItemListStart
-        \resumeItem{}
-          {Taught recitations for over 70 students, publishing help videos and documentation}
-        \resumeItem{}
-          {Designed containerization-focused term project for the class with Kubernetes and Docker}
-      \resumeItemListEnd
-
-
-    \resumeSubheading
-      {Colorado State University, Pallickara Lab}{Fort Collins, CO}
-      {Undergraduate Research Assistant}{Jan 2020 -- May 2020}
-      \resumeItemListStart
-        \resumeItem{}
-          {Helped develop LSTM recurrent neural networks for point-cloud datasets generated from agricultural LIDAR equipment}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Colorado State University, Intro to Software Engineering}{Fort Collins, CO}
-      {Undergraduate Teaching Assistant, DevOps}{Jan 2019 -- Dec 2019}
-      \resumeItemListStart
-        \resumeItem{}
-          {Practiced Agile and Scrum master role, assisting teams with Sprint planning; automated DevOps}
-        \resumeItem{}
-          {Provided reference React/JSX web applet with RESTful API for students to test against}
-        \resumeItem{}
-          {Taught version control etiquette and clean code practices}
+          {Automated Lustre filesystem provisioning based on discovered NVMe/SCSI drives}
+        % \resumeItem{}
+        %   {Created filesystem controller to create and manage Lustre/ZFS filesystems on host node}
+        % \resumeItem{}
+        %   {Added resource persistence via both filesystem and Kubernetes' etcd keystore}
+        % \resumeItem{}
+        %   {Updated drive management controller to provide NVMe and SCSI drive discovery}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -212,18 +169,10 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
           {Reduced end-to-end testing time from over 20 minutes to 6 minutes}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Colorado State University, Data Structures and Algorithms}{Fort Collins, CO}
-      {Lead Undergraduate Teaching Assistant}{Aug 2017 -- Dec 2018}
-      \resumeItemListStart
-        \resumeItem{}
-          {Facilitated learning inheritance, polymorphism, data structures, object-oriented design, recursion, and various algorithm implementations}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 % ----------------------- EDUCATION --------------------------------------------
-\section{Education}
+\section{Education and Research}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Colorado State University}{Fort Collins, CO}
@@ -234,13 +183,68 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
       % with Tensorflow, ScikitLearn, PyTorch, and PySpark support, while minimizing network I/O and maximizing load
       % balancing and data locality.
     \resumeSubheading
-      {Colorado State University}{Fort Collins, CO}
+      {Colorado State University}{}
       {B.S. in Computer Science, Math Minor; GPA: 3.984}{Aug 2016 -- May 2020}
       % • Understand discrete math, abstract/linear algebra, combinatorics, computer architecture, logical circuit
       % design, Object-Oriented Programming patterns, networking, concurrent/parallel programming, algorithms, data
       % structures, test driven development, version control, Agile, operating systems, thread safety, systems security,
       % big data, distributed systems, package management, compiler design, grammars, relational algebra, database
       % design and management, and debugging skills.
+
+    \resumeSubheading
+      {Graduate Research Assistant}{}
+      {Pallickara Lab}{Jan 2020 - May 2022}
+      \resumeItemListStart
+        \resumeItem{}
+          {Published two papers to ACM and IEEE conferences, see \textit{Projects}}
+        % \resumeItem{}
+        %   {Automated cluster management with two Kubernetes clusters, Docker containerization, and Bash/Python scripts}
+        \resumeItem{}
+          {Established procedures for ingesting and sharding datasets into MongoDB, and managing clusters of 200 nodes}
+        % \resumeItem{}
+        %   {Advocated for solid software engineering practices like test-driven development, clean code, and well-defined version control processes}
+        \resumeItem{}
+          {Helped develop LSTM recurrent neural networks for point-cloud datasets generated from agricultural LIDAR equipment}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Teaching Assistantships}{}
+      {Data Structures and Algorithms, Software Engineering, Operating Systems}{Aug 2017 - Dec 2020}
+      \resumeItemListStart
+        \resumeItem{}
+          {Facilitated learning as lead TA in multiple classes, teaching object-oriented design patterns, data structures, algorithms, operating systems, Agile software development, and version control}
+      \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Colorado State University, Intro to Operating Systems}{}
+%       {Graduate Teaching Assistant}{Aug 2020 -- Dec 2020}
+%       \resumeItemListStart
+%         \resumeItem{}
+%           {Taught recitations for over 70 students, publishing help videos and documentation}
+%         \resumeItem{}
+%           {Designed containerization-focused term project for the class with Kubernetes and Docker}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Colorado State University, Intro to Software Engineering}{Fort Collins, CO}
+%       {Undergraduate Teaching Assistant, DevOps}{Jan 2019 -- Dec 2019}
+%       \resumeItemListStart
+%         \resumeItem{}
+%           {Practiced Agile and Scrum master role, assisting teams with Sprint planning; automated DevOps}
+%         \resumeItem{}
+%           {Provided reference React/JSX web applet with RESTful API for students to test against}
+%         \resumeItem{}
+%           {Taught version control etiquette and clean code practices}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Colorado State University, Data Structures and Algorithms}{Fort Collins, CO}
+%       {Lead Undergraduate Teaching Assistant}{Aug 2017 -- Dec 2018}
+%       \resumeItemListStart
+%         \resumeItem{}
+%           {Facilitated learning inheritance, polymorphism, data structures, object-oriented design, recursion, and various algorithm implementations}
+%       \resumeItemListEnd
+
   \resumeSubHeadingListEnd
 % ------------------------------------------------------------------------------
 
@@ -275,18 +279,18 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
 % ------------------------------------------------------------------------------
 
 % ----------------------- REFERENCES -------------------------------------------
-\section{References}
-  \begin{center}
-  \setlength{\tabcolsep}{18pt}
-  \begin{tabular}{ |c|c|c|c| }
-  \hline
-  Brent Petit             & HPE & Engineering Manager        & brent.petit@hpe.com \\
-  Timothy Morneau         & HPE & Senior Systems Engineer    & morneaut@gmail.com \\
-  Aaron Laffin            & HPE & Senior Systems Engineer    & aaron.laffin@gmail.com \\
-  Dr. Shrideep Pallickara & CSU & Computer Science Professor & shrideep@colostate.edu \\
-  \hline
-  \end{tabular}
-  \end{center}
+% \section{References}
+%   \begin{center}
+%   \setlength{\tabcolsep}{18pt}
+%   \begin{tabular}{ |c|c|c|c| }
+%   \hline
+%   Brent Petit             & HPE & Engineering Manager        & brent.petit@hpe.com \\
+%   Timothy Morneau         & HPE & Senior Systems Engineer    & morneaut@gmail.com \\
+%   Aaron Laffin            & HPE & Senior Systems Engineer    & aaron.laffin@gmail.com \\
+%   Dr. Shrideep Pallickara & CSU & Computer Science Professor & shrideep@colostate.edu \\
+%   \hline
+%   \end{tabular}
+%   \end{center}
 % ------------------------------------------------------------------------------
 
 %-------------------------------------------
