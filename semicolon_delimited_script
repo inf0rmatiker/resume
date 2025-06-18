@@ -1,0 +1,3 @@
+cd data
+pdflatex caleb_carlson_resume.tex
+
