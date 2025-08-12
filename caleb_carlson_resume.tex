@@ -93,15 +93,20 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{inf0rmatiker.github.io}{\Large Caleb Carlson}} & \href{mailto:ccarlson355@gmail.com}{ccarlson355@gmail.com}\\
   \href{https://www.inf0rmatiker.github.io}{inf0rmatiker.github.io} & \href{tel:+15129343355}{(512) 934-3355}\\
+  \href{https://github.com/inf0rmatiker}{github.com/inf0rmatiker} & \href{https://www.linkedin.com/in/inf0rmatiker/}{linkedin.com/in/inf0rmatiker}\\
 \end{tabular*}
 % ------------------------------------------------------------------------------
 
 % ----------------------- SUMMARY ----------------------------------------------
 \section{Summary}
-  \begin{center}
-Ambitious and motivated Systems Engineer with solid leadership, teamwork, and creativity. Eager to learn cutting-edge
-technologies and passionate about HPC, distributed systems, big data, high-speed networking, machine learning and AI.
-  \end{center}
+\begin{center}
+Ambitious and motivated Software Engineer with solid leadership and teamwork skills, with over 5 years'
+experience building robust solutions in industry. Always eager to learn new methods
+and technologies while promoting sustainable development practices and minimizing technical debt.
+Passionate about open-source, community-driven projects and sharing creativity through contributing
+to public codespaces.
+\end{center}
+
 % ------------------------------------------------------------------------------
 
 % ----------------------- EXPERIENCE -------------------------------------------
@@ -112,19 +117,21 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
       {HPC Storage - Systems Software Engineer II}{June 2022 -- Present}
       \resumeItemListStart
         \resumeItem{}
+          {Implemented a cluster fabric configuration API and address pool manager with accompanying CLI commands}
+        \resumeItem{}
           {Created an automated, user-friendly, and scalable software upgrade procedure for DAOS storage cluster}
         \resumeItem{}
           {Designed and implemented cluster bootstrapping process for DAOS storage product, using HPCM as a foundation}
         \resumeItem{}
-          {Triaged Kubernetes management issues in several customers' legacy storage products}
+          {Triaged and repaired Kubernetes management issues in customers' legacy storage products}
         \resumeItem{}
           {Contributed bugfixes and LNet kernel module tuning improvements to community Lustre filesystem project}
         \resumeItem{}
           {Benchmarked HPC Lustre filesystems against GPUDirect Storage and POSIX clients}
         \resumeItem{}
           {Created Jenkins pipeline that builds DKMS-enabled Lustre clients for a variety of distros and kernels}
-        % \resumeItem{}
-        %   {Investigated DAOS filesystem and enabled Infiniband device passthrough for Kubernetes-provisioned clusters}
+        \resumeItem{}
+          {Investigated Talos OS as platform for new storage product and enabled InfiniBand device passthrough}
         \resumeItem{}
           {Streamlined add-on data mover node discovery and software mapping process}
       \resumeItemListEnd
@@ -143,8 +150,8 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
       {Cray, Inc.}{Longmont, CO}
       {HPC Storage - Software Development Intern}{May 2020 -- May 2022}
       \resumeItemListStart
-        % \resumeItem{}
-        %   {Automated Jenkins builds, Go unit testing, and Slack notifications for team's repositories}
+        \resumeItem{}
+          {Automated Jenkins builds, Go unit testing, and Slack notifications for team's repositories}
         \resumeItem{}
           {Built Jenkins pipelines, Go unit tests, and Slack notifications for team's repositories}
         \resumeItem{}
@@ -153,8 +160,8 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
           {Automated Lustre filesystem provisioning based on discovered NVMe/SCSI drives}
         % \resumeItem{}
         %   {Created filesystem controller to create and manage Lustre/ZFS filesystems on host node}
-        % \resumeItem{}
-        %   {Added resource persistence via both filesystem and Kubernetes' etcd keystore}
+        \resumeItem{}
+          {Added redundant resource persistence via both filesystem and Kubernetes' etcd keystore}
         % \resumeItem{}
         %   {Updated drive management controller to provide NVMe and SCSI drive discovery}
       \resumeItemListEnd
@@ -165,6 +172,8 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
       \resumeItemListStart
         \resumeItem{}
           {Implemented administrative RBAC for Verizon APIs}
+        \resumeItem{}
+          {Added audit log entries to API calls for user/action tracking}
         \resumeItem{}
           {Reduced end-to-end testing time from over 20 minutes to 6 minutes}
       \resumeItemListEnd
@@ -197,53 +206,76 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
       \resumeItemListStart
         \resumeItem{}
           {Published two papers to ACM and IEEE conferences, see \textit{Projects}}
-        % \resumeItem{}
-        %   {Automated cluster management with two Kubernetes clusters, Docker containerization, and Bash/Python scripts}
         \resumeItem{}
-          {Established procedures for ingesting and sharding datasets into MongoDB, and managing clusters of 200 nodes}
-        % \resumeItem{}
-        %   {Advocated for solid software engineering practices like test-driven development, clean code, and well-defined version control processes}
+          {Automated management of 150+ node clusters with Kubernetes and Docker}
+        \resumeItem{}
+          {Established procedures for ingesting and sharding petabyte-sized datasets into MongoDB}
+        \resumeItem{}
+          {Built on-request data analytics services and contributed to open-source, NSF-funded \href{https://urban-sustain.org/}{Urban Sustain project}}
         \resumeItem{}
           {Helped develop LSTM recurrent neural networks for point-cloud datasets generated from agricultural LIDAR equipment}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Teaching Assistantships}{}
-      {Data Structures and Algorithms, Software Engineering, Operating Systems}{Aug 2017 - Dec 2020}
+      {Teaching Assistantships}{}{}{Aug 2017 -- Dec 2020}
+      \resumeSubSubheading
+        {Intro to Operating Systems}{}
+        \resumeItemListStart
+          \resumeItem{}
+            {Taught recitations for over 70 students, publishing help videos and documentation for topics like thread safety, virtual memory, paging, and sockets programming}
+          \resumeItem{}
+            {Designed containerization-focused term project for the class with Kubernetes and Docker}
+        \resumeItemListEnd
+      \resumeSubSubheading
+        {Intro to Software Engineering}{}
+        \resumeItemListStart
+          \resumeItem{}
+            {Practiced Agile and Scrum master role, assisting teams with Sprint planning; automated DevOps}
+          \resumeItem{}
+            {Provided reference React/JSX web applet with RESTful API for students to test against}
+          \resumeItem{}
+            {Taught version control and Git project etiquette, clean code practices, REST API implementation with Java, and MySQL database creation/maintenance}
+        \resumeItemListEnd
+      \resumeSubSubheading
+      {Data Structures and Algorithms}{}
       \resumeItemListStart
         \resumeItem{}
-          {Facilitated learning as lead TA in multiple classes, teaching object-oriented design patterns, data structures, algorithms, operating systems, Agile software development, and version control}
+          {As lead TA, helped manage schedules and onboard new TAs}
+        \resumeItem{}
+          {Proctored exams and implemented automated grading/assignment submission system}
+        \resumeItem{}
+          {Facilitated learning inheritance, polymorphism, data structures, object-oriented design, recursion, and various algorithm implementations}
       \resumeItemListEnd
 
-%     \resumeSubheading
-%       {Colorado State University, Intro to Operating Systems}{}
-%       {Graduate Teaching Assistant}{Aug 2020 -- Dec 2020}
-%       \resumeItemListStart
-%         \resumeItem{}
-%           {Taught recitations for over 70 students, publishing help videos and documentation}
-%         \resumeItem{}
-%           {Designed containerization-focused term project for the class with Kubernetes and Docker}
-%       \resumeItemListEnd
+    % \resumeSubSubheading
+    %   {Colorado State University, Intro to Operating Systems}{}
+    %   {Graduate Teaching Assistant}{Aug 2020 -- Dec 2020}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Taught recitations for over 70 students, publishing help videos and documentation}
+    %     \resumeItem{}
+    %       {Designed containerization-focused term project for the class with Kubernetes and Docker}
+    %   \resumeItemListEnd
 
-%     \resumeSubheading
-%       {Colorado State University, Intro to Software Engineering}{Fort Collins, CO}
-%       {Undergraduate Teaching Assistant, DevOps}{Jan 2019 -- Dec 2019}
-%       \resumeItemListStart
-%         \resumeItem{}
-%           {Practiced Agile and Scrum master role, assisting teams with Sprint planning; automated DevOps}
-%         \resumeItem{}
-%           {Provided reference React/JSX web applet with RESTful API for students to test against}
-%         \resumeItem{}
-%           {Taught version control etiquette and clean code practices}
-%       \resumeItemListEnd
+    % \resumeSubheading
+    %   {Colorado State University, Intro to Software Engineering}{Fort Collins, CO}
+    %   {Undergraduate Teaching Assistant, DevOps}{Jan 2019 -- Dec 2019}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Practiced Agile and Scrum master role, assisting teams with Sprint planning; automated DevOps}
+    %     \resumeItem{}
+    %       {Provided reference React/JSX web applet with RESTful API for students to test against}
+    %     \resumeItem{}
+    %       {Taught version control etiquette and clean code practices}
+    %   \resumeItemListEnd
 
-%     \resumeSubheading
-%       {Colorado State University, Data Structures and Algorithms}{Fort Collins, CO}
-%       {Lead Undergraduate Teaching Assistant}{Aug 2017 -- Dec 2018}
-%       \resumeItemListStart
-%         \resumeItem{}
-%           {Facilitated learning inheritance, polymorphism, data structures, object-oriented design, recursion, and various algorithm implementations}
-%       \resumeItemListEnd
+    % \resumeSubheading
+    %   {Colorado State University, Data Structures and Algorithms}{Fort Collins, CO}
+    %   {Lead Undergraduate Teaching Assistant}{Aug 2017 -- Dec 2018}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Facilitated learning inheritance, polymorphism, data structures, object-oriented design, recursion, and various algorithm implementations}
+    %   \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 % ------------------------------------------------------------------------------
@@ -255,8 +287,13 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
       {Distributed resource monitoring for memory pressure, CPU usage, storage I/O, Ethernet and InfiniBand throughput. [\href{https://github.com/inf0rmatiker/omniscient}{github.com/inf0rmatiker/omniscient}]}
     \resumeSubItem{Validation Service }
       {Validates spatiotemporal models on large datasets in a distributed fashion and visualizes metrics as a geospatial heatmap. [\href{https://github.com/Project-Sustain/validation-service}{github.com/Project-Sustain/validation-service}]}
-    \resumeSubItem{Research Papers }
-      {}
+    \resumeSubItem{Storm Topics }
+      {Detects most popular topics from live twitter message streams using the lossy counting algorithm with Apache Storm and Zookeeper. [\href{https://github.com/inf0rmatiker/stormtopics}{github.com/inf0rmatiker/stormtopics}]}
+    \resumeSubItem{Docusum }
+      {Finds sentences that best summarize a Wikipedia document with Hadoop MapReduce. [\href{https://github.com/inf0rmatiker/docusum}{github.com/inf0rmatiker/docusum}]}
+    \resumeSubItem{Model Service }
+      {A service providing federated model training for spatially-segregated data. [\href{https://github.com/inf0rmatiker/model-service}{github.com/inf0rmatiker/model-service}]}
+      \resumeSubItem{Research Papers }{}
       \resumeItemListStart
         \resumeItem{}
           {ACM BDCAT 2021 | \href{https://dl.acm.org/doi/10.1145/3492324.3494164}{\textit{Distributed Orchestration of Regression Models Over Administrative Boundaries}}}
@@ -266,16 +303,18 @@ technologies and passionate about HPC, distributed systems, big data, high-speed
   \resumeSubHeadingListEnd
 % ------------------------------------------------------------------------------
 
-
 % ----------------------- SKILLS -----------------------------------------------
-%\section{Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, JavaScript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Go, Bash, C, C++, Python, Java, Scala}
+    }
+    \item{
+      \textbf{Technologies}{: Docker, Kubernetes, Helm, Slurm, Jenkins, Git, GitHub, Jira, Confluence, Apache Spark,
+Apache Storm, Hadoop, Nginx, Flask, Numpy, Pandas, Anaconda, gRPC, RESTful APIs, PyTorch, Scikit-Learn, Spring Boot,
+Matplotlib, Jupyter Notebook, Sockets/RDMA, Linux (RHEL/SLES/Ubuntu), RPMs, Autotools}
+    }
+ \resumeSubHeadingListEnd
 % ------------------------------------------------------------------------------
 
 % ----------------------- REFERENCES -------------------------------------------
